@@ -1,0 +1,9 @@
+{"image":"mcr.microsoft.com/devcontainers/universal:2"}{
+    "name": "Meu Ambiente de Desenvolvimento",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "settings": {},
+    "extensions": [],
+    "postCreateCommand": "docker --version"
+  }
